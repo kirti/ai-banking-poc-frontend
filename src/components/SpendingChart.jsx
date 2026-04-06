@@ -33,12 +33,12 @@ function SpendingChart() {
     const fetchData = async () => {
       try {
         // Fetch history
-        const res1 = await fetch('http://localhost:9090/api/spending-history');
+        const res1 = await fetch('https://ai-banking-poc-backend.onrender.com/api/spending-history');
         const history = await res1.json();
         setSpendingHistory(history);
 
         // Fetch prediction
-        const res2 = await fetch('http://localhost:9090/api/spending-prediction', {
+        const res2 = await fetch('https://ai-banking-poc-backend.onrender.com/api/spending-prediction', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ months: [1, 2, 3, 4, 5], spending: history }),

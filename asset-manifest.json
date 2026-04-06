@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ai-banking-poc-frontend/static/css/main.d7be6718.css",
+    "main.js": "/ai-banking-poc-frontend/static/js/main.333b6f24.js",
+    "static/js/453.d3943498.chunk.js": "/ai-banking-poc-frontend/static/js/453.d3943498.chunk.js",
+    "index.html": "/ai-banking-poc-frontend/index.html",
+    "main.d7be6718.css.map": "/ai-banking-poc-frontend/static/css/main.d7be6718.css.map",
+    "main.333b6f24.js.map": "/ai-banking-poc-frontend/static/js/main.333b6f24.js.map",
+    "453.d3943498.chunk.js.map": "/ai-banking-poc-frontend/static/js/453.d3943498.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7be6718.css",
+    "static/js/main.333b6f24.js"
+  ]
+}
